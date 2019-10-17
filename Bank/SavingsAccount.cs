@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Bank
 {
-    public class SavingsAccount:Account
+    public class SavingsAccount:Account//herencia de clase padre
     {
-        public DateTime Expiration { get; set; }
+        public DateTime Expiration { get; set; }//fecha de expiracion, atributo agregado
     }
 }

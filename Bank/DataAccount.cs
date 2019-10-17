@@ -10,13 +10,13 @@ namespace Bank
     {
         public List<PensionAccount> pensions()//creas metodo lista, sera lo mismo para las otras dos, metodo para cada clase de cuenta
         {
-            List<PensionAccount> pensions = new List<PensionAccount>();//creas lista aqui, ya que arriba solo eliges el tipo de dato, ahora solo crea 5 objetos
+            List<PensionAccount> pensions = new List<PensionAccount>();//creas lista aqui, ya que arriba solo eliges el tipo de dato, ahora solo crea 5 objetos con todos los atributos llenos
             pensions.Add(new PensionAccount { Expiration = new DateTime(2024, 08, 30), HeadLine = "Mario Silva", Balance = 1234.34m, Interest = 12.3434, AccNo = 12345, Quotation = 500, NoAccountPrincipal = 12341234 });//Llenar una linea en chinga
             pensions.Add(new PensionAccount { Expiration = new DateTime(2024, 07, 29), HeadLine = "Izary Jimenez", Balance = 1232344.23m, Interest = 2143, AccNo = 23456, Quotation = 500, NoAccountPrincipal = 231231234 });
             pensions.Add(new PensionAccount { Expiration = new DateTime(2024, 06, 28), HeadLine = "Mario Obregon", Balance = 314.40m, Interest = 1234, AccNo = 34567, Quotation = 500, NoAccountPrincipal = 1234123413 });
             pensions.Add(new PensionAccount { Expiration = new DateTime(2024, 05, 27), HeadLine = "Izael Silva", Balance = 98328754.32m, Interest = 12.3434, AccNo= 45678, Quotation = 500, NoAccountPrincipal = 123412342 });
             pensions.Add(new PensionAccount { Expiration = new DateTime(2024, 04, 26), HeadLine = "Kenneth Castaneda", Balance = 123434124.32m, Interest = 187634, AccNo= 56789, Quotation = 500, NoAccountPrincipal = 12341234 });
-            return pensions;//envias la lista creada
+            return pensions;//envias la lista creada a donde llamen el metodo
         }
         public List<SavingsAccount> savings()//same as above
         {

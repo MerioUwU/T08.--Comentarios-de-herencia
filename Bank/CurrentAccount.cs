@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bank
 {
-    public class CurrentAccount:Account
+    public class CurrentAccount:Account//herencia de clase padre
     {
 
     }
